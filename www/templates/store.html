@@ -1,0 +1,12 @@
+<ion-view title="store" id="page3">
+    <ion-content padding="true" class="has-header">
+        <ion-list id="store-list1">
+            <div ng-repeat="prod in products">
+                <ion-item class="item-thumbnail-left" id="store-list-item7">
+                    <img src="{{prod.img}}" /><h2>{{prod.name}}</h2><h2>{{prod.price}}</h2> <button id="store-button8" ui-sref="menu.product({loc:$index})" class="button button-positive  button-block">view</button>
+                </ion-item>
+            </div>
+
+        </ion-list>
+    </ion-content>
+</ion-view>
