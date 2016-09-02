@@ -8,6 +8,7 @@ angular.module('app.services', [])
 
 }]);
 
+
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyCepLx7DcY5D3LVdm1vsZDeSE9HJ7ajXl0",
@@ -15,3 +16,4 @@ angular.module('app.services', [])
     databaseURL: "https://ionic-store-2c979.firebaseio.com",
     storageBucket: "ionic-store-2c979.appspot.com",
   };
+  firebase.initializeApp(config);
